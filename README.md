@@ -18,9 +18,12 @@ Open command line terminal in VS code (Right Click on the project folder -> Open
 
 Run the command : npm install This would install all the dependencies specified in package.json file
 
-To install cypress, run command : npm install cypress --save-dev
+To install cypress, run command : 
+
+npm install cypress --save-dev
 
 To install allure serve reports, run below commands
+
   npm install --save-dev allure-cypress
   npm install rimraf --save-dev   
 
