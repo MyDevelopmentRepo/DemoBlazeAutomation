@@ -1,0 +1,22 @@
+{
+  "name": "demoblazeautomation",
+  "version": "1.0.0",
+  "description": "Automation test Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:allure": "rimraf cypress/allure-results",
+    "allure:report": "allure generate cypress/allure-results --clean -o cypress/allure-results/allure-report",
+    "allure:serve": "allure open cypress/allure-results/allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-cypress": "^3.1.0",
+    "cypress": "^14.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "rimraf": "^6.0.1"
+  }
+}
