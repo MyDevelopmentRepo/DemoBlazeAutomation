@@ -5,8 +5,6 @@ Instructions on how to run the tests:
 **Prerequisites:**
 
 Node.js should be installed
-Visual Studio code should be installed
-Chrome browser should be installed
 
 **Steps:**
 
@@ -20,31 +18,21 @@ Run the command : npm install This would install all the dependencies specified 
 
 **To install cypress, run command :**
 
-npm install cypress --save-dev
+npm install
 
-**To install allure serve reports, run below commands**
+**To run test :**
 
-  npm install --save-dev allure-cypress
+npm run test
 
-  
-  npm install rimraf --save-dev   
+**To run test and generate report**
 
-**To run the project and generate reports execute below commands in order:**
-
-npm run clean:allure 
+npm run test:report
 
 
-npx cypress run  
+**To run test,  generate report and open report**
 
+npm run test:open
 
-npm run allure:report
-
-
-npm run allure:serve 
-
-
-
-This will delete older reports and generate new and open allure web report.
 
 
  
